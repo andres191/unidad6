@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./multi/img/afs.PNG" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/ultimo.css">
+    <title>afs</title>
+</head>
+<body>
+ <!-- ----------------------------------------------MENU------------------------------------------------------------------ -->
+<aside class="nav-bar">
+    <nav class="nall">
+        <a href="./tercerSitio.html" target="_blank">Home</a>
+        <a href="#Multimedia">Multimedia</a>
+        <a href="#Registros">Formulario</a>
+        <a href="#about">Nosotros</a>
+        <a href="#footer">Pie de Pagina</a>
+    </nav>
+</aside>
+ <!-- ----------------------------------------------Main------------------------------------------------------------------ -->
+<main>
+    <!-- ----------------------------------------------FONDO------------------------------------------------------------------ -->
+    <section id="fondo"> 
+        <article id="l1"><h1 id="titulo1">Lo mejor de Uber para tu empresa</h1>
+            <p id="par1">Una plataforma para administrar viajes a nivel mundial, comidas y entregas locales para empresas de todos los tamaños.</p>
+            <a href="#" id="boton1">Conoce mas</a>
+        </article>
+    </section>
+ <!-- ----------------------------------------------Incio------------------------------------------------------------------ -->
+    <section class="inicio2">
+        <article id="inicio">
+            <div class="titulos">
+                <h1 class="h22">¿Necesitas empleo?</h1>
+            </div>
+            <p>No te preocupes.<br/> Se parte de nuestra gran familia y crece en el mundo laboral junto a nosotros. Tan solo necesitas cumplir 3 requisitos para ser uno mas de la familia.<br/> Los cuales son: </p>
+            <table>
+                <th>Requisitos:</th>
+                  </table>
+                 
+                  <li>Gran actitud</li>
+                  <li>Respeto y Amabilidad</li>
+                  <li>Licencia de conducir actilizada</li>
+                
+        </article>
+    </section>
+     <!-- ----------------------------------------------multimedia------------------------------------------------------------------ -->
+     <section id="Multimedia">
+        <div class="multi" >
+    <div id="mulp-mp3" class="mulp" >
+      <button class="btMusic" id="playMusic">play</button>
+      <button class="btMusic" id="stopMusic">stop</button>
+      <button class="btMusic" id="pauseMusic">pause</button>
+    </div>
+    <div id="mulp-mp4" class="mulp" >
+        <video src="multi/mp4/y2mate.com - Lomas Verdes Estado de México   de Noche  En auto_v144P.mp4" controls height="400px"></video>
+    </div>
+    
+        </div>
+    </section>
+<!---------------------------------------------- MAS INFORMACION-------------------------------------------------------------------->
+<section>
+    <article id="nec">
+<div class="titulos">
+    <h1 class="h22">¿Necesitas mas informacion sobre nosotros?</h1>
+</div>
+<p>te dejaremos un video sobre quienes somos:</p>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BscmYkmbarQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+<p>si por algun razon nuestro video no es cargado de forma perfecta. dejaremos el link hacia el video</p>
+<a href="https://www.youtube.com/watch?v=BscmYkmbarQ&ab_channel=UberConcepcion" target="_blank"><br/>
+    ir a youtube</a>
+</article>
+</section>
+<!---------------------------------------------- REGISTRO-------------------------------------------------------------------->
+<section id="Registros">
+    <div class="container">
+      <article id="for">
+      <div class="titulos">
+          <h1 class="h22">Formulario de registro</h1>
+      </div>
+      <p>Si crees que tienes lo necesario para ser parte de nuestra empresa, toma la delantera y realiza tu registro</p>
+      <br>
+  
+      <h1>Formulario de registro</h1>
+      
+    <br  />
+    <br  /> 
+    
+    
+  <from>
+    <input       
+     type="text"
+     placeholder="Usuario"
+     name="usuario"
+     id="usuario"
+     required
+     />
+    
+    <input 
+     type="password"
+     placeholder="Contraseña"
+     name="Contraseña"
+     id="Contraseña"
+     required
+     />
+    <br  />
+    <br  />
+      <input 
+     type="email"
+     placeholder="Correo"
+     name="Correo"
+     id="Correo"
+     required
+     />
+  
+      <input 
+     type="number"
+     placeholder="edad"
+     name="edad"
+     id="edad"
+     required
+     min="18"
+     max="99"
+     />
+    
+        <input 
+     type="url"
+     placeholder="URL del perfil de facebook"
+     name="url"
+     id="url"
+     required
+     />
+   
+      <input 
+     type="date"
+     placeholder="fecha de nacimiento"
+     name="fecha de nacimiento"
+     id="fecha de nacimiento"
+     required
+     />
+  
+    <select name="pais">
+      <option value="Colombia">Colombia</option>
+      <option value="mexico">Mexico</option>
+      <option value="">España</option>
+      <option value="argentina">Argentina</option>
+    </select>
+    
+    <input 
+     type="radio"
+     namw="roll"
+     value="d"
+     id="d"
+     />
+    <lable for="d">Desarrollador</lable>
+    <input 
+     type="radio"
+     namw="roll"
+     value="m"
+     id="m"
+     />
+    <lable for="m">Diseñador</lable>
+  
+      <input       
+     type="color"
+     name="color"
+     id="color"
+     required
+     />
+     <lable>Color Favorito</lable>
+    <br  />
+    <br  />
+    <input  type="submit" value="Regritrase"   />
+  </from>
+  </article>
+  </div>
+  </section>
+<!---------------------------------------------- nosotros-------------------------------------------------------------------->
+<section id="about">
+        
+    <div id="fondoAbout"></div>
+
+    <div id="textoAbout">
+
+        <h2 id="tituloAbout">¿Quien es Andres?</h2>
+        <p id="parrafoAbout"> 
+            Andres es un joven lleno de talento y energia, responsable y interesado en cumplir cada una de las metas trasadas en su camino <br>
+            como profesional Maneja la coherencia y consistencia gráfica del sitio web,
+            priorizando la comunicación y una interfaz de usuario responsiva; seleccionando los elementos que
+            la componen y codificando los diseños en lenguajes HTML, CSS y JS. <br>
+            </p>
+    </div>
+
+</section>
+<!---------------------------------------------- FOOTER-------------------------------------------------------------------->
+<footer id="footer">
+	<div id="hola">
+		<h3 class="h44">Uber para empresas</h3> <br>
+		<a class="aa" href="">visitar el centro de ayuda</a>
+	</div>
+	<br>
+
+	<div class="bb">
+		<h3 class="h44"> Conocenos</h3> <br>
+		<a class="aa" href="">newsroom</a> <br>
+		<a class="aa" href="">blog</a> <br>
+		<a class="aa" href="">unete al equipo</a> <br>
+	</div>
+	<div class="bb">
+		<h3 class="h44"> productos</h3> <br>
+		<a class="aa" href="">uber para empresas</a> <br>
+		<a class="aa" href="">uber freight</a> <br>
+		<a class="aa" href="">comida a domicilio con uber eats</a> <br>
+
+	</div>
+
+	<p id="mm">2021</p>
+
+    <div class="logoFoter">
+    <img id="logo" src="./multi/img/afs.PNG"/>
+    </div>
+
+</footer>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="./script/gsap.min.js"></script>
+<script src="./script/howler.min.js"></script>
+<script src="./script/otromain.js"></script>
+</body>
+</html>

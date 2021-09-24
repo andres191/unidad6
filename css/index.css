@@ -1,0 +1,1361 @@
+*{   
+    margin: 0;
+   }
+   
+   body{
+       font-family: 'Hina Mincho', serif;
+  
+   }
+   a{
+       text-decoration: none;
+       color: black;
+   }
+/**************************************************MENU**************************************************************************/
+.nav-bar{
+    width: 300px;
+    height: 100vh;
+    background-color: #F4F6F7;
+    float: left;
+    position: fixed;
+}
+
+
+.nav-bar .nall{
+position: relative;
+top: 200px;
+}
+    
+    .nav-bar nav a{
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-decoration: none;
+        color: black;
+        
+    
+    }
+    
+    .nav-bar .reference{
+        text-align: center ;
+        font-size: 12px;
+        font-weight: 400;
+        color: gray;
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+    }
+    /**************************************************Main**************************************************************************/
+main{
+    width: calc(100% - 300px);
+    float: left;
+    margin-left: 300px;
+}
+    main #fondo{
+        width: 100%;
+        height: 100vh;
+    }
+    /**************************************************fondo**************************************************************************/
+    #fondo{
+        width: 100%;
+        height: 663px;
+        background-image: url("../multi/img/fondo1.jpg");
+        background-size: cover;
+      }
+      
+      #fondo #l1{
+      position: relative;
+      top: 290px; 
+      text-align: center;
+      }
+      
+      #fondo #l1 #titulo1{
+      font-size: 50px;
+      color: honeydew;
+      }
+      
+      #fondo #l1 #par1{
+      color: honeydew ;
+      }
+      
+      #fondo #l1 #boton1{
+      text-decoration: none;
+      color: honeydew;
+      padding: 10px;
+      position: relative;
+      top: 50px;
+      border: 2px solid honeydew;
+      }
+      /***********************************************************TITULO***************************************************************/
+#bqa{
+    width: 100%;
+    display: block;
+    color: #333333;
+    position: relative;
+    top: 20px;
+    bottom: 30px;
+    text-align: center;
+}
+
+#bqa #titulo2{
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 20px;
+}
+
+#tite{
+  margin-top: 20px;
+  font-size: 60px;
+
+}
+/***********************************************************CARRUSEL***************************************************************/
+#carrusel{
+  width: 100%;
+    position: relative;
+    top: 40px;
+}
+
+.splide{
+    margin: 10px;
+}
+
+.splide__slide{
+text-align: center;
+}
+
+.splide__slide h4{
+  margin-top: 10px;
+}
+
+
+.splide__slide #uno{
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+   
+}
+
+
+.splide__slide #dos{
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+
+.splide__slide #tres{
+    width: 180px;
+    height: 180px;
+    position: relative;
+}
+/***********************************************************CONTENEDORPRINCIPAL***************************************************************/
+.contenedorPrincipal{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top: 40px;
+    bottom: 40px;
+  }
+  /***********************************************************SECTION1***************************************************************/
+  .sect1{
+      width: 100%;
+      height: 300px;
+      display: inline-block;
+      position: relative;
+      top: 10px;
+    }
+    
+    .sect1 .box1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    background-image: url(../multi/img/celular.png);
+    background-size: cover;
+    
+    }
+    
+    .sect1 .texto1{
+      width: 400px;
+      height: auto;
+      position: relative;
+      left: 600px;
+      top: -220px;
+     text-align: center;
+    }
+    
+    #bt2{
+      position: relative;
+      top: 15px;
+    }
+  /***********************************************************SECTION2***************************************************************/
+  
+  .sect2{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    top: -130px;
+    }
+    
+    .sect2 .box2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    background-image: url(../multi/img/seguridad.png);
+    background-size: cover;
+    
+    }
+    
+    .texto2{
+      width: 400px;
+      height: auto;
+      position: relative;
+      left: 600px;
+        top: -230px;
+     text-align: center;
+    }
+    
+    #bt2{
+      position: relative;
+      top: 15px;
+    }
+  
+  /***********************************************************SECTION3***************************************************************/
+  
+  .sect3{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    top: -300px;
+    }
+    
+    .sect3 .box3{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    background-image: url(../multi/img/ahorro.png);
+    background-size: cover;
+    
+    }
+    
+    .texto3{
+      width: 400px;
+      height: auto;
+      position: relative;
+      left: 600px;
+     top: -221px;
+     text-align: center;
+    }
+    
+    #bt2{
+      position: relative;
+      top: 15px;
+    }
+/***********************************************************SECTION4***************************************************************/
+
+.sect4{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+   position: relative;
+   top: 80px;
+   text-align: center; 
+  }
+  
+  .sect4 .titulo3{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    bottom: 40px;
+    background:white;
+  }
+  
+  .sect4 .titulo3 #h22{
+    font-size: 25px;
+  }
+  
+  /*****************************//***********************SECTION4 CAJA1******//*****************************//*****************************/
+  
+  .sect4 .cajon1{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    top: 30px;
+    display: inline-block;
+  }
+  
+  .sect4 .cajon1 .zoom{
+    width: 400px;
+    height: 285px;
+    background-image: url(../multi/img/meet.jpg);
+    background-size: cover;
+  }
+  
+   .texto-zoom{
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    background: white;
+    text-align: center;
+  }
+  
+  /*****************************//**************************SECTION4 CAJA2***//*****************************//*****************************/
+    .sect4 .cajon2{
+      width: 400px;
+      height: 450px;
+      position: relative;
+      left: 8px;
+      top: 5px;
+      display: inline-block;
+     background: white;
+    }
+    
+    .sect4 .cajon2 .pepsie{
+      width: 400px;
+      height: 285px;
+      background-image: url(../multi/img/pepsi.png);
+      background-size: cover;
+    }
+    
+     .texto-pepsies{
+      width: 400px;
+      height: auto;
+      position: relative;
+      top: 48px;
+      text-align: center;
+    }
+  /*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+    
+    .sect4 .cajon3{
+      width: 400px;
+      height: fit-content;
+      position: relative;
+      top: 50px;
+      display: inline-block;
+    }
+    
+    .sect4 .cajon3 .pepsie1{
+      width: 440px;
+      height: 285px;
+      background-image: url(../multi/img/iphone.png);
+      background-size: cover;
+      text-align: center;
+    }
+    
+     .texto-pepsies1{
+      width: 400px;
+      height: auto;
+      position: relative;
+      top: 64px;
+      background: white;
+      text-align: center;
+    }
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+
+      #about{
+        background: aqua;
+        width: 100%;
+        height: 240px;
+        position: relative;
+        left: 0;
+        top: 220px;
+      }
+    
+      #fondoAbout{
+        width: 200px;
+        height: 200px;
+    position: relative;
+    top: 10px;
+        border-radius: 30%;
+        background-image: url("../multi/img/perfil.jpg");
+        background-size: cover;
+      }
+    
+      #tituloAbout{
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        left: 10px;
+       top: -200px;
+    }
+    
+    #parrafoAbout{
+      width: 800px;
+      position: relative;
+      top: -180px;
+      left: 220px;
+    }
+
+/*****************************//**************************footer***//*****************************//*****************************/
+
+    footer{
+        width: 100%;
+        height: 300px;
+        background: black;
+        position: relative;
+        left: 0px;
+        top: 220px;
+      }
+    
+      .h44{
+        color: white;
+      }
+    
+      .bb{
+        width: 400px;
+        height: auto;
+        display: inline-block;
+        position: relative;
+        left: 40px;
+      }
+    
+      #hola{
+        width: 400px;
+        height: auto;
+        position: relative; 
+        left: 40px; 
+    }
+        
+    
+    #mm{
+      color: #FFFFFF;
+      position: relative;
+      left: 40px;
+    }
+    
+    .aa{
+      text-decoration: none;
+      color: #FDFEFE;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 780px) and (max-width:1024px){
+
+body{
+    overflow-x: hidden;
+}
+.splide__slide #tres{
+    width: 130px;
+    height: 130px;
+    position: relative;
+}
+/***********************************************************CONTENEDORPRINCIPAL***************************************************************/
+.contenedorPrincipal{
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  top: 40px;
+  bottom: 40px;
+}
+/***********************************************************SECTION1***************************************************************/
+.sect1{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+  }
+  
+  .sect1 .box1{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 300px;
+  background-image: url(../multi/img/celular.png);
+  background-size: cover;
+  
+  }
+  
+  .sect1 .texto1{
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 200px;
+    top: 0px;
+   text-align: center;
+   font-size: 14px;
+  }
+  
+  #bt2{
+    position: relative;
+    top: 5px;
+  }
+/***********************************************************SECTION2***************************************************************/
+
+.sect2{
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  }
+  
+  .sect2 .box2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 300px;
+  background-image: url(../multi/img/seguridad.png);
+  background-size: cover;
+  
+  }
+  
+  .texto2{
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 200px;
+    top: 0px;
+   text-align: center;
+   font-size: 14px;
+  }
+  
+  #bt2{
+    position: relative;
+    top: 15px;
+  }
+
+/***********************************************************SECTION3***************************************************************/
+
+.sect3{
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  top: 70px;
+  }
+  
+  .sect3 .box3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 300px;
+  background-image: url(../multi/img/ahorro.png);
+  background-size: cover;
+  
+  }
+  
+  .texto3{
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 200px;
+    top: 0px;
+   text-align: center;
+   font-size: 14px;
+  }
+  
+  #bt2{
+    position: relative;
+    top: 15px;
+  }
+/***********************************************************SECTION4***************************************************************/
+
+  .sect4{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+   position: relative;
+   top: 200px;
+   text-align: center; 
+  }
+  
+  .sect4 .titulo3{
+    width: 95%;
+    height: auto;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    bottom: 40px;
+    background:white;
+  }
+  
+  .sect4 .titulo3 #h22{
+    font-size: 25px;
+  }
+  
+  /*****************************//***********************SECTION4 CAJA1******//*****************************//*****************************/
+  
+  .sect4 .cajon1{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    top: 30px;
+    display: inline-block;
+  }
+  
+  .sect4 .cajon1 .zoom{
+    width: 400px;
+    height: 285px;
+    background-image: url(../multi/img/meet.jpg);
+    background-size: cover;
+  }
+  
+   .texto-zoom{
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    background: white;
+    text-align: center;
+  }
+  
+  /*****************************//**************************SECTION4 CAJA2***//*****************************//*****************************/
+    .sect4 .cajon2{
+      width: 400px;
+      height: 450px;
+      position: relative;
+      left: 0px;
+      top: 60px;
+      display: inline-block;
+     background: white;
+    }
+    
+    .sect4 .cajon2 .pepsie{
+      width: 400px;
+      height: 285px;
+      background-image: url(../multi/img/pepsi.png);
+      background-size: cover;
+    }
+    
+     .texto-pepsies{
+      width: 400px;
+      height: auto;
+      position: relative;
+      top: 60px;
+      text-align: center;
+    }
+  /*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+    
+    .sect4 .cajon3{
+      width: 400px;
+      height: fit-content;
+      position: relative;
+      top: 50px;
+      display: inline-block;
+    }
+    
+    .sect4 .cajon3 .pepsie1{
+      width: 440px;
+      height: 285px;
+      left: 0;
+      background-image: url(../multi/img/iphone.png);
+      background-size: cover;
+      text-align: center;
+    }
+    
+     .texto-pepsies1{
+      width: 400px;
+      height: auto;
+      position: relative;
+      top: 64px;
+      background: white;
+      text-align: center;
+    }
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+
+    footer{
+      width: 100%;
+      height: 430px;
+      background: black;
+      position: relative;
+      left: 0px;
+      top: 320px;
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 480px) and (max-width:780px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+      .nav-bar{
+        width: 100px;
+        height: 100vh;
+        background-color: #F4F6F7;
+        float: left;
+        position: fixed;
+    }
+    main{
+      width: 761px;
+      width: 761px;
+      float: left;
+      margin-left: 100px;
+  }
+      main #fondo{
+          width: 761px;
+          height: 100vh;
+      }
+      /**************************************************fondo**************************************************************************/
+      #fondo{
+          width: 100%;
+          height: 663px;
+          background-image: url("../multi/img/fondo1.jpg");
+          background-size: cover;
+        }
+        
+        #fondo #l1{
+          width: 89%;
+        position: relative;
+        top: 290px; 
+        text-align: center;
+        }
+      /**************************************************titulo**************************************************************************/
+        #bqa{
+          width: 89%;
+          display: block;
+          color: #333333;
+          position: relative;
+          top: 20px;
+          bottom: 30px;
+          text-align: center;
+      }
+            /**************************************************Carrusel**************************************************************************/
+
+      #carrusel{
+        width: 89%;
+          position: relative;
+          top: 40px;
+      }
+      .splide__slide #tres{
+          width: 130px;
+          height: 130px;
+          position: relative;
+      }
+      /***********************************************************CONTENEDORPRINCIPAL***************************************************************/
+.contenedorPrincipal{
+  width: 89%;
+  height: 1000px;
+  position: relative;
+  top: 40px;
+  bottom: 40px;
+}
+/***********************************************************SECTION1***************************************************************/
+.sect1{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+  }
+  
+  .sect1 .box1{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 300px;
+  background-image: url(../multi/img/celular.png);
+  background-size: cover;
+  
+  }
+  
+  .sect1 .texto1{
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 200px;
+    top: 0px;
+   text-align: center;
+   font-size: 14px;
+  }
+  
+  #bt2{
+    position: relative;
+    top: 5px;
+  }
+/***********************************************************SECTION2***************************************************************/
+
+.sect2{
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  }
+  
+  .sect2 .box2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 300px;
+  background-image: url(../multi/img/seguridad.png);
+  background-size: cover;
+  
+  }
+  
+  .texto2{
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 200px;
+    top: 0px;
+   text-align: center;
+   font-size: 14px;
+  }
+  
+  #bt2{
+    position: relative;
+    top: 15px;
+  }
+
+/***********************************************************SECTION3***************************************************************/
+
+.sect3{
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  top: 70px;
+  }
+  
+  .sect3 .box3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 300px;
+  background-image: url(../multi/img/ahorro.png);
+  background-size: cover;
+  
+  }
+  
+  .texto3{
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 200px;
+    top: 0px;
+   text-align: center;
+   font-size: 14px;
+  }
+  
+  #bt2{
+    position: relative;
+    top: 15px;
+  }
+/***********************************************************SECTION4***************************************************************/
+.sect4{
+  width: 89%;
+  height: 600px;
+  display: inline-block;
+ position: relative;
+ top: 200px;
+ text-align: center; 
+}
+
+.sect4 .titulo3{
+  width: 92%;
+  height: auto;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  bottom: 40px;
+  background:white;
+}
+
+.sect4 .titulo3 #h22{
+  font-size: 25px;
+}
+
+/*****************************//***********************SECTION4 CAJA1******//*****************************//*****************************/
+
+.sect4 .cajon1{
+  width: 400px;
+  height: 450px;
+  position: relative;
+  top: 30px;
+  display: inline-block;
+}
+
+.sect4 .cajon1 .zoom{
+  width: 400px;
+  height: 285px;
+  background-image: url(../multi/img/meet.jpg);
+  background-size: cover;
+}
+
+ .texto-zoom{
+  width: 400px;
+  height: auto;
+  position: relative;
+  top: 20px;
+  background: white;
+  text-align: center;
+}
+
+/*****************************//**************************SECTION4 CAJA2***//*****************************//*****************************/
+  .sect4 .cajon2{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    left: 0px;
+    top: 60px;
+    display: inline-block;
+   background: white;
+  }
+  
+  .sect4 .cajon2 .pepsie{
+    width: 400px;
+    height: 285px;
+    background-image: url(../multi/img/pepsi.png);
+    background-size: cover;
+  }
+  
+   .texto-pepsies{
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    text-align: center;
+  }
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+  
+  .sect4 .cajon3{
+    width: 400px;
+    height: fit-content;
+    position: relative;
+    top: 50px;
+    display: inline-block;
+  }
+  
+  .sect4 .cajon3 .pepsie1{
+    width: 440px;
+    height: 285px;
+    left: 0;
+    background-image: url(../multi/img/iphone.png);
+    background-size: cover;
+    text-align: center;
+  }
+  
+   .texto-pepsies1{
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 64px;
+    background: white;
+    text-align: center;
+  }
+    /*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+
+    footer{
+      width: 100%;
+      height: 430px;
+      background: black;
+      position: relative;
+      left: 0px;
+      top: 330px;
+    }
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 480px){
+      .nav-bar{
+        width: 100px;
+        height: 200vh;
+        background-color: #F4F6F7;
+        float: left;
+        position: fixed;
+    }
+    main{
+      width: 461px;
+      width: 761px;
+      float: left;
+      margin-left: 100px;
+      }
+      main #fondo{
+          width: 363px;
+          height: 100vh;
+      }
+      /**************************************************fondo**************************************************************************/
+      #fondo{
+          background-image: url("../multi/img/fondo1.jpg");
+          background-size: cover;
+        }
+        
+        #fondo #l1{
+        width: 89%;
+        position: relative;
+        top: 160px; 
+        left: 20px;
+        text-align: center;
+        }
+      /**************************************************titulo**************************************************************************/
+        #bqa{
+          width: 48%;
+          display: block;
+          color: #333333;
+          position: relative;
+          top: 20px;
+          bottom: 30px;
+          text-align: center;
+          font-size: 18px;
+      }
+            /**************************************************Carrusel**************************************************************************/
+
+      #carrusel{
+        width: 48%;
+          position: relative;
+          top: 40px;
+      }
+      .splide__slide #tres{
+          width: 130px;
+          height: 130px;
+          position: relative;
+      }
+      /***********************************************************CONTENEDORPRINCIPAL***************************************************************/
+.contenedorPrincipal{
+  width: 48%;
+  height: 1000px;
+  position: relative;
+  top: 40px;
+  bottom: 40px;
+}
+/***********************************************************SECTION1***************************************************************/
+.sect1{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+  }
+  
+  .sect1 .box1{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 100px;
+  background-image: url(../multi/img/celular.png);
+  background-size: cover;
+  
+  }
+  
+  .sect1 .texto1{
+    width: 360px;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+   font-size: 12px;
+  }
+  
+  #bt2{
+    position: relative;
+    top: 5px;
+  }
+/***********************************************************SECTION2***************************************************************/
+
+.sect2{
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  top: 00px;
+  }
+  
+  .sect2 .box2{
+    width: 150px;
+  height: 150px;
+  position: relative;
+  left: 100px;
+  background-image: url(../multi/img/seguridad.png);
+  background-size: cover;
+  
+  }
+  
+  .texto2{
+    width: 360px;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+   font-size: 12px;
+  }
+  
+  #bt2{
+    position: relative;
+    top: 15px;
+  }
+
+/***********************************************************SECTION3***************************************************************/
+
+.sect3{
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  }
+  
+  .sect3 .box3{
+    width: 150px;
+  height: 150px;
+  position: relative;
+  left: 100px;
+  background-image: url(../multi/img/ahorro.png);
+  background-size: cover;
+  
+  }
+  
+  .texto3{
+    width: 360px;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+   font-size: 12px;
+  }
+  
+  #bt2{
+    position: relative;
+    top: 15px;
+  }
+/***********************************************************SECTION4***************************************************************/
+.sect4{
+  width: 48%;
+  height: 600px;
+  display: inline-block;
+ position: relative;
+ top: 5px;
+ text-align: center; 
+}
+
+.sect4 .titulo3{
+  width: 99%;
+  height: auto;
+  position: relative;
+  top: 20px;
+  left: 0px;
+  bottom: 40px;
+  background:white;
+}
+
+.sect4 .titulo3 #h22{
+  font-size: 25px;
+}
+
+/*****************************//***********************SECTION4 CAJA1******//*****************************//*****************************/
+
+.sect4 .cajon1{
+  width: 400px;
+  height: 450px;
+  position: relative;
+  left: 20px;
+  top: 30px;
+  display: inline-block;
+}
+
+.sect4 .cajon1 .zoom{
+  width: 320px;
+  height: 285px;
+  background-image: url(../multi/img/meet.jpg);
+  background-size: cover;
+}
+
+ .texto-zoom{
+  width: 320px;
+  height: auto;
+  position: relative;
+  top: 20px;
+  background: white;
+  text-align: center;
+}
+
+/*****************************//**************************SECTION4 CAJA2***//*****************************//*****************************/
+  .sect4 .cajon2{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    left: 20px;
+    top: 70px;
+    display: inline-block;
+  }
+  
+  .sect4 .cajon2 .pepsie{
+    width: 300px;
+    height: 285px;
+    background-image: url(../multi/img/pepsi.png);
+    background-size: cover;
+  }
+  
+   .texto-pepsies{
+    width: 320px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    background: white;
+    text-align: center;
+  }
+/*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+  
+  .sect4 .cajon3{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    left: 20px;
+    top: 70px;
+    display: inline-block;
+  }
+  
+  .sect4 .cajon3 .pepsie1{
+    width: 300px;
+    height: 285px;
+    background-image: url(../multi/img/iphone.png);
+    background-size: cover;
+    text-align: center;
+  }
+  
+   .texto-pepsies1{
+    width: 320px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    background: white;
+    text-align: center;
+  }
+    /*****************************//**************************SECTION4 CAJA3***//*****************************//*****************************/
+
+    footer{
+      width: 48%;
+      height: 430px;
+      background: black;
+      position: relative;
+      left: 0px;
+      top: 130px;
+    }
+    }

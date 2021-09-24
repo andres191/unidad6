@@ -1,0 +1,437 @@
+*{
+    padding: 0;   
+    margin: 0;
+   }
+   
+   body{
+       font-family: 'Hina Mincho', serif;
+       overflow-x: hidden;
+   }
+/**************************************************MENU**************************************************************************/
+.nav-bar{
+    width: 300px;
+    height: 100vh;
+    background-color: #F4F6F7;
+    float: left;
+    position: fixed;
+}
+
+
+.nav-bar .nall{
+position: relative;
+top: 200px;
+}
+    
+    .nav-bar nav a{
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-decoration: none;
+        color: black;
+        
+    
+    }
+    
+    .nav-bar .reference{
+        text-align: center ;
+        font-size: 12px;
+        font-weight: 400;
+        color: gray;
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+    }
+/**************************************************Main**************************************************************************/
+main{
+    width: calc(100% - 300px);
+    float: left;
+    margin-left: 300px;
+}
+
+main #fondo{
+    width: 100%;
+    height: 100vh;
+}
+/**************************************************fondo**************************************************************************/
+#fondo{
+    width: 100%;
+    height: 663px;
+    background-image: url("../multi/img/fondo1.jpg");
+    background-size: cover;
+  }
+  
+  #fondo #l1{
+  position: relative;
+  top: 100px; 
+  
+  text-align: center;
+  }
+  
+  #fondo #l1 #titulo1{
+  font-size: 50px;
+  color: honeydew;
+  }
+  
+  #fondo #l1 #par1{
+  color: honeydew ;
+  }
+  
+  #fondo #l1 #boton1{
+  text-decoration: none;
+  color: honeydew;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  border: 2px solid honeydew;
+  }
+/**************************************************incio**************************************************************************/
+.inicio2{
+    margin-top: 20px;
+    height: 300px;
+}
+
+  #inicio{
+    width: 100%;
+    height: 300px;
+   text-align: center;
+}
+
+th{
+  position: relative;
+  left: 490px;
+}
+
+.h22{
+  font-size: 40px;
+}
+  /*****************************//********************multi*********//*****************************//*****************************/
+.multi{
+    width: 100%;
+    height: auto;
+  }
+  .mulp{
+    margin-top: 20px;
+  }
+  /*****************************//********************SONIDO*********//*****************************//*****************************/
+  .btMusic{
+    position: relative;
+    background: black;
+    left: 450px;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    color: #FDFEFE;
+  }
+  
+  #mulp-mp3{
+    position: relative;
+    top: 10px;
+    width: auto;
+    height: auto;
+  }
+  .mulp video{
+      width: 50%;
+      height: auto;
+      position: relative;
+      left: 280px;
+      top: 10px;
+    }
+
+    
+  /*****************************//*********************MAS INFORMACION********//*****************************//*****************************/
+  #nec{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  #nec .titulos .h22{
+    text-align: center;
+  }
+
+  #nec p{
+    text-align: center;
+  }
+
+  #nec iframe{
+    position: relative;
+    left: 270px;
+  }
+ /*****************************//**************************REGISTRO***//*****************************//*****************************/
+ #for{
+    width: 100%;
+    height: auto;
+     text-align: center;
+  }
+  input{
+    display: inline-block;
+  }
+
+
+  #about{
+    background: aqua;
+    width: 100%;
+    height: 240px;
+    position: relative;
+    left: 0;
+    top: 20px;
+  }
+
+  #fondoAbout{
+    width: 200px;
+    height: 200px;
+position: relative;
+top: 10px;
+    border-radius: 30%;
+    background-image: url("../multi/img/perfil.jpg");
+    background-size: cover;
+  }
+
+  #tituloAbout{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    left: 10px;
+   top: -200px;
+}
+
+#parrafoAbout{
+  width: 800px;
+  position: relative;
+  top: -180px;
+  left: 220px;
+}
+
+    /*****************************//*******************FOOTER**********//*****************************//*****************************/
+    footer{
+        width: 100%;
+        height: auto;
+        background: black;
+        position: relative;
+       
+      }
+    
+      .aa{
+        text-decoration: none;
+        color: #e2f4f1;
+      }
+    
+    
+      #hola{
+        width: 400px;
+        height: auto;
+    position: relative; 
+    left: 40px; 
+    }
+    
+    .bb{
+      width: 400px;
+      height: auto;
+      display: inline-block;
+      position: relative;
+      left: 40px;
+      
+    }
+    
+    .h44{
+      color: white;
+    }
+    
+    #mm{
+      color: #FDFEFE;
+      position: relative;
+      left: 40px;
+      top: 20px;
+    }
+    
+    
+    .logoFoter{
+      position: relative;
+     left: 500px;
+     bottom: 5px;
+
+    }
+    
+    #logo {
+      width:180px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 780px) and (max-width:1024px){
+        body{
+            overflow-x: hidden;
+        }
+    /*****************************//*******************inicio**********//*****************************//*****************************/
+        th{
+            position: relative;
+            left: 330px;
+          }
+    /*****************************//*******************multi**********//*****************************//*****************************/
+        .btMusic{
+            left: 300px;
+        }
+        .mulp video{
+            left: 200px;
+        }
+    /*****************************//*******************ifra**********//*****************************//*****************************/
+        #nec iframe{
+            position: relative;
+            left: 100px;
+          }
+              /*****************************//*********footer**********//*****************************//*****************************/
+              .logoFoter{
+                position: relative;
+               left: 150px;
+               bottom: 5px;
+          
+              }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 480px) and (max-width:780px){
+        body{
+            overflow-x: hidden;
+        }
+    /*****************************//*******************inicio**********//*****************************//*****************************/
+        th{
+            position: relative;
+            left: 200px;
+          }
+    /*****************************//*******************multi**********//*****************************//*****************************/
+        .btMusic{
+            left: 170px;
+        }
+        .mulp video{
+            left: 130px;
+        }
+    /*****************************//*******************ifra**********//*****************************//*****************************/
+        #nec iframe{
+            width: 300px;
+            height: 200px;
+            position: relative;
+            left: 110px;
+          }
+/*****************************//*********footer**********//*****************************//*****************************/
+#logo {
+    width:100px;
+  }
+ .logoFoter{
+ position: relative;
+ left: 20px;
+ bottom: 5px;
+}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 480px){
+        body{
+            overflow-x: hidden;
+        }
+
+        main{
+            width: 80%;
+            float: left;
+            margin-left: 100px;
+        }
+        .nav-bar{
+            width: 100px;
+            height: 100vh;
+            background-color: #F4F6F7;
+            float: left;
+            position: fixed;
+        }
+        body{
+            overflow-x: hidden;
+        }
+    /*****************************//*******************inicio**********//*****************************//*****************************/
+        th{
+            position: relative;
+            left: 155px;
+          }
+    /*****************************//*******************multi**********//*****************************//*****************************/
+        .btMusic{
+            left: 120px;
+        }
+        .mulp video{
+            left: 100px;
+        }
+    /*****************************//*******************ifra**********//*****************************//*****************************/
+        #nec iframe{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            left: 100px;
+          }
+/*****************************//*********footer**********//*****************************//*****************************/
+#logo {
+    width:50px;
+  }
+ .logoFoter{
+ position: relative;
+ left: -40px;
+ bottom: 5px;
+}
+
+    }
+  
